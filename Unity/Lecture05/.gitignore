@@ -1,0 +1,21 @@
+# Project-local rules; source assets and .meta files must be tracked.
+/Library/
+/Temp/
+/Logs/
+/obj/
+/Build/
+/Builds/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+/.utmp/
+/.vs/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.unityproj
+/*.user
+/*.userprefs
+.DS_Store
+Thumbs.db
