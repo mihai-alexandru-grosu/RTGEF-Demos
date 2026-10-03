@@ -1,0 +1,9 @@
+# Godot 4.1+; review these rules before importing older projects.
+# https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html
+.godot/
+*.translation
+/*/Builds/
+
+# Keep project.godot, export_presets.cfg, .uid and asset .import files.
+# Keep C# .csproj/.sln files and native extension binaries when used.
+# Export games to Builds/ so output stays separate from source assets.

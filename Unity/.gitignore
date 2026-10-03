@@ -1,0 +1,45 @@
+# Applies to projects in LectureXX/ and Templates/<Name>/.
+# Reference: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Keep Assets (including .meta files), Packages and ProjectSettings.
+/*/[Ll]ibrary/
+/*/[Tt]emp/
+/*/[Oo]bj/
+/*/[Bb]uild/
+/*/[Bb]uilds/
+/*/[Ll]ogs/
+/*/[Uu]ser[Ss]ettings/
+/*/[Mm]emoryCaptures/
+/*/[Rr]ecordings/
+/*/UIElementsSchema/
+/*/.utmp/
+/*/*.csproj
+/*/*.unityproj
+/*/*.sln
+/*/*.slnx
+/*/*.pidb
+/*/*.opendb
+/*/*.VC.db
+/*/mono_crash.*
+/*/sysinfo.txt
+/Templates/*/[Ll]ibrary/
+/Templates/*/[Tt]emp/
+/Templates/*/[Oo]bj/
+/Templates/*/[Bb]uild/
+/Templates/*/[Bb]uilds/
+/Templates/*/[Ll]ogs/
+/Templates/*/[Uu]ser[Ss]ettings/
+/Templates/*/[Mm]emoryCaptures/
+/Templates/*/[Rr]ecordings/
+/Templates/*/UIElementsSchema/
+/Templates/*/.utmp/
+/Templates/*/*.csproj
+/Templates/*/*.unityproj
+/Templates/*/*.sln
+/Templates/*/*.slnx
+/Templates/*/*.pidb
+/Templates/*/*.opendb
+/Templates/*/*.VC.db
+/Templates/*/mono_crash.*
+/Templates/*/sysinfo.txt
+
+# Keep imported DLLs, models, textures and other source assets.

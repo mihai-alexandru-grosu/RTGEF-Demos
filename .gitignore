@@ -1,0 +1,14 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local IDE caches and per-user preferences
+.vs/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# Optional repository-wide build output
+/Builds/

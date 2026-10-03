@@ -1,0 +1,22 @@
+# Applies to projects directly inside LectureXX/.
+# Reference: https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
+/*/Binaries/
+/*/Intermediate/
+/*/Saved/
+/*/DerivedDataCache/
+/*/Builds/
+/*/*.sln
+/*/*.slnx
+/*/*.vcxproj
+/*/*.vcxproj.filters
+/*/*.vcxproj.user
+/*/*.xcodeproj/
+/*/*.xcworkspace/
+/*/*.VC.db
+/*/*.VC.opendb
+/*/Plugins/**/Intermediate/
+
+# Keep Content, Config, Source, Build, .uproject and .uplugin files.
+# Keep plugin Binaries and third-party libraries: binary-only plugins need them.
+# Keep *_BuiltData.uasset files so baked lighting remains reproducible.
+# Export packaged games to Builds/, not Build/ (which can contain source settings).
