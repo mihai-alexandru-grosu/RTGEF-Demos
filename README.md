@@ -7,12 +7,12 @@ Unity, Unreal Engine, and Godot lecture demos for the Real-Time Game Engine Fund
 - [Unity Lecture02](Unity/Lecture02/README.md): playable fundamentals demo with movement, jumping, coins, score UI and scene loading.
 - `Unity/Lecture04/`, `Lecture05/` and `Lecture06/`: minimal independent 3D Unity baselines.
 - `Unity/Lecture01/`: unused placeholder; no dedicated demo currently needed.
-- `Unity/Lecture03/`: awaits Alex's separately created Universal 2D project.
+- [Unity Lecture03](Unity/Lecture03/Lecture03/README.md): Sunny Land playable level with integrated effectors and tile workshop. Alex's nested project location is preserved.
 - [Unity 3D template](Unity/Templates/Basic3D/README.md): reusable baseline. `Unity/Templates/Basic2D/` remains a placeholder.
 - `Unreal/Lecture07/` through `Unreal/Lecture12/`: independent Unreal projects.
 - `Godot/Lecture13/`: the Godot project.
 
-Unity 3D baselines have been created, and Lecture 2 gameplay is implemented. Other lesson-specific gameplay is still pending. Unreal, Godot and the Unity 2D folders remain placeholders. `.gitkeep` files let Git retain the empty folders and can be removed when projects are added. There is no Lecture 14 project because that week is for presentations.
+Unity 3D baselines have been created, and Lectures 2 and 3 have demos. Other lesson-specific gameplay is still pending. Unreal, Godot and the Unity Basic2D template remain placeholders. `.gitkeep` files let Git retain the empty folders and can be removed when projects are added. There is no Lecture 14 project because that week is for presentations.
 
 ## Coding conventions
 

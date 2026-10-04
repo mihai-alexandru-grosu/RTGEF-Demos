@@ -8,6 +8,9 @@ public class FollowCamera : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (target == null)
+            return;
+        
         transform.position = target.position + offset;
         transform.LookAt(target.position);
     }

@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class DemoUI : MonoBehaviour
 {
     [Header("Labels")]
-    [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text statusText;
 
     [Header("Controls")]
@@ -15,21 +14,15 @@ public class DemoUI : MonoBehaviour
 
     // Runtime state.
     private GameManager gameManager;
-    private int displayedScore = -1;
     private bool bonusLoading;
 
     private void Start()
     {
         gameManager = GameManager.Instance;
-
-        RefreshScore();
     }
 
     private void Update()
     {
-        if (displayedScore != gameManager.Score)
-            RefreshScore();
-
         var keyboard = Keyboard.current;
 
         if (keyboard == null)
@@ -41,15 +34,6 @@ public class DemoUI : MonoBehaviour
             NextLevel();
         else if (keyboard.bKey.wasPressedThisFrame)
             LoadBonus();
-    }
-
-    private void RefreshScore()
-    {
-        if (scoreText == null)
-            return;
-
-        displayedScore = gameManager.Score;
-        scoreText.text = $"SCORE  {displayedScore:00}";
     }
 
     public void Restart()
