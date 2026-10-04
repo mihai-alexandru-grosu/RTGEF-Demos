@@ -594,11 +594,6 @@ Transform:
   - {fileID: 1343803498}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &329116269 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6953761797404557049, guid: 8211c0c2eda3be447bd888b0e62da367, type: 3}
-  m_PrefabInstance: {fileID: 614041969}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &404913982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,7 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428fc0908a8ef3a4aa941655e9d74e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowCamera
-  target: {fileID: 329116269}
+  target: {fileID: 0}
   offset: {x: 0, y: 13, z: -12}
 --- !u!81 &1605847749
 AudioListener:

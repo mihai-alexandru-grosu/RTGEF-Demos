@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpImpulse = 6f;
-    [SerializeField] private LayerMask groundLayers;
 
     [Header("Runtime state")]
     [SerializeField] private Rigidbody rb;
@@ -38,7 +37,7 @@ public class Player : MonoBehaviour
     {
         // Velocity is in metres per second, so no deltaTime is needed here.
         rb.linearVelocity = new Vector3(movement.x * speed, rb.linearVelocity.y, movement.z * speed);
-        bool grounded = Physics.Raycast(rb.position, Vector3.down, 0.58f, groundLayers, QueryTriggerInteraction.Ignore);
+        bool grounded = Physics.Raycast(rb.position, Vector3.down, 0.58f);
 
         if (jumpRequested && grounded && rb.linearVelocity.y <= 0.1f)
             rb.AddForce(Vector3.up * jumpImpulse, ForceMode.Impulse);
