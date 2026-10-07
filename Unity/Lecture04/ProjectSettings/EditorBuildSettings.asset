@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/ClipWorkshop.unity
+    guid: c1d827edad9e3b948afb06d6cf1960d2
+  - enabled: 1
+    path: Assets/Scenes/AnimatorPlayground.unity
+    guid: 1d3a741a80fc9ba48987c41c2d7b212e
+  - enabled: 1
+    path: Assets/Scenes/RootMotion.unity
+    guid: 1a790a937593ef14193b35d6e12aa355
+  - enabled: 1
+    path: Assets/Scenes/Rigging.unity
+    guid: b68dd4e7c1f473e4da65e968b0d829fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

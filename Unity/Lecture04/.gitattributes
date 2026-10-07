@@ -1,0 +1,2 @@
+Assets/ThirdParty/UnityAnimationSamples/*.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Animations/mixamo/*.fbx filter=lfs diff=lfs merge=lfs -text

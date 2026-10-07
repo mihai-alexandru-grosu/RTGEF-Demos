@@ -74,11 +74,14 @@ namespace Lecture03
         {
             Collider2D ground = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayers);
             grounded = ground;
-            bool onConveyor = ground && ground.GetComponent<SurfaceEffector2D>();
+            SurfaceEffector2D conveyor = ground ? ground.GetComponentInParent<SurfaceEffector2D>() : null;
+            float conveyorSpeed = 0f;
 
-            // Let the conveyor carry an idle player instead of resetting its velocity.
-            if (!onConveyor || Mathf.Abs(horizontal) > 0.01f)
-                body.linearVelocity = new Vector2(horizontal * speed, body.linearVelocity.y);
+            // Player is excluded from the effector mask so its force does not fight this sum.
+            if (conveyor && conveyor.isActiveAndEnabled)
+                conveyorSpeed = conveyor.speed;
+
+            body.linearVelocity = new Vector2(horizontal * speed + conveyorSpeed, body.linearVelocity.y);
 
             if (jumpRequested && grounded)
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpSpeed);
