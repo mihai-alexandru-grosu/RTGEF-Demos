@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: ForestTerrain
   m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.RuleTile
-  m_DefaultSprite: {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
+  m_DefaultSprite: {fileID: 21300036, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 2
   m_TilingRules:
@@ -77,7 +77,6 @@ MonoBehaviour:
     - {fileID: 21300074, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300092, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300186, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300210, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
@@ -97,15 +96,15 @@ MonoBehaviour:
     m_Sprites:
     - {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300212, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
+    - {fileID: 21300214, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300212, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
+    - {fileID: 21300214, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300076, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
-    m_PerlinScale: 0.73
+    m_PerlinScale: 0.803
     m_Output: 1
     m_ColliderType: 2
     m_RandomTransform: 0
@@ -123,7 +122,6 @@ MonoBehaviour:
     - {fileID: 21300080, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300098, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300192, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300216, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
@@ -159,17 +157,13 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 0
     m_Sprites:
-    - {fileID: 21300212, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300094, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
+    - {fileID: 21300110, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
+    - {fileID: 21300110, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     - {fileID: 21300126, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300212, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300094, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300124, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
-    - {fileID: 21300094, guid: 7fd585c3ce8e10e4ab755fbe69cd6b7a, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
-    m_PerlinScale: 0.73
+    m_PerlinScale: 0.538
     m_Output: 1
     m_ColliderType: 2
     m_RandomTransform: 0
