@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: b39f426ca87bf8341a68bb4c5444c3dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4142895348390555733
+    second: WindStump_0
+  - first:
+      213: 1829435436106784486
+    second: WindStump_1
+  - first:
+      213: -3614758622822756231
+    second: WindStump_2
+  - first:
+      213: -5191428378348470858
+    second: WindStump_3
+  - first:
+      213: 2929935027943489977
+    second: WindStump_4
+  - first:
+      213: 5721276325275826693
+    second: WindStump_5
+  - first:
+      213: 3080596428900197066
+    second: WindStump_6
+  - first:
+      213: 3186070231890273196
+    second: WindStump_7
+  - first:
+      213: 8275828536383348783
+    second: WindStump_8
+  - first:
+      213: 1221827855452992662
+    second: WindStump_9
+  - first:
+      213: -5385037691139173038
+    second: WindStump_10
+  - first:
+      213: 5368069720386221022
+    second: WindStump_11
+  - first:
+      213: -5817967792131862122
+    second: WindStump_12
+  - first:
+      213: -8053004043527706659
+    second: WindStump_13
+  - first:
+      213: 4954466029667502721
+    second: WindStump_14
+  - first:
+      213: 2288331835825477672
+    second: WindStump_15
+  - first:
+      213: -4907271669575400705
+    second: WindStump_16
+  - first:
+      213: 5101827642819670552
+    second: WindStump_17
+  - first:
+      213: 2458625846197326787
+    second: WindStump_18
+  - first:
+      213: -7690049332392331897
+    second: WindStump_19
+  - first:
+      213: -8186907127938999049
+    second: WindStump_20
+  - first:
+      213: 8903014804011778399
+    second: WindStump_21
+  - first:
+      213: -4908891048070073662
+    second: WindStump_22
+  - first:
+      213: -1498277693021103826
+    second: WindStump_23
+  - first:
+      213: 915440999427230928
+    second: WindStump_24
+  - first:
+      213: -1882143229035752387
+    second: WindStump_25
+  - first:
+      213: -7169954285812654631
+    second: WindStump_26
+  - first:
+      213: -1012716829428867306
+    second: WindStump_27
+  - first:
+      213: -6664449206193200147
+    second: WindStump_28
+  - first:
+      213: -1851155370124597256
+    second: WindStump_29
+  - first:
+      213: 5672334177555897667
+    second: WindStump_30
+  - first:
+      213: 3906414180352677690
+    second: WindStump_31
+  - first:
+      213: -8991420186654807624
+    second: WindStump_32
+  - first:
+      213: 6418244358581246730
+    second: WindStump_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 578.8571
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WindStump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 2145
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550ff6e8e558e7930800000000000000
+      internalID: 4142895348390555733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 572
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee18ac16d5736910800000000000000
+      internalID: 1829435436106784486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 580
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9709ed13f2cc5ddc0800000000000000
+      internalID: -3614758622822756231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_3
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 578
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd38af256754f7b0800000000000000
+      internalID: -5191428378348470858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 578
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1cb8b626839a820800000000000000
+      internalID: 2929935027943489977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_5
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 560
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50afae5518e066f40800000000000000
+      internalID: 5721276325275826693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_6
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 581
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2eee0612a70ca20800000000000000
+      internalID: 3080596428900197066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_7
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 576
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca32441def1373c20800000000000000
+      internalID: 3186070231890273196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_8
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 570
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ab25e436a9d270800000000000000
+      internalID: 8275828536383348783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 561
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694f3f406fdc4f010800000000000000
+      internalID: 1221827855452992662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_10
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 561
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2555f8540c08445b0800000000000000
+      internalID: -5385037691139173038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 530
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3b62d28f63f7a40800000000000000
+      internalID: 5368069720386221022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_12
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 546
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69111533e1d624fa0800000000000000
+      internalID: -5817967792131862122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_13
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 546
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd72fb23d7bfd3090800000000000000
+      internalID: -8053004043527706659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_14
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 546
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a4216aa9cc1c440800000000000000
+      internalID: 4954466029667502721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_15
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 536
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828589a3ea9c1cf10800000000000000
+      internalID: 2288331835825477672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_16
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 514
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2ce969a6ed5ebb0800000000000000
+      internalID: -4907271669575400705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_17
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 538
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f883e5355dc640800000000000000
+      internalID: 5101827642819670552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 532
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c39f264e2bce1220800000000000000
+      internalID: 2458625846197326787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_19
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 530
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785768530e4774590800000000000000
+      internalID: -7690049332392331897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_20
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 534
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc151ed753426e80800000000000000
+      internalID: -8186907127938999049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_21
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 522
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f518a274bccdd8b70800000000000000
+      internalID: 8903014804011778399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_22
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 532
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c230b6a99d10ebb0800000000000000
+      internalID: -4908891048070073662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_23
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 514
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29d59c506c053be0800000000000000
+      internalID: -1498277693021103826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_24
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 518
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc40bf1dbc44bc00800000000000000
+      internalID: 915440999427230928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_25
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 518
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34dae884b841e5e0800000000000000
+      internalID: -1882143229035752387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_26
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 504
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddd85aa0943f7c90800000000000000
+      internalID: -7169954285812654631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_27
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 506
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f15d3c86b12f1f0800000000000000
+      internalID: -1012716829428867306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_28
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 506
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de36839b1ce1383a0800000000000000
+      internalID: -6664449206193200147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_29
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 232
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7aaabafff5f46e0800000000000000
+      internalID: -1851155370124597256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_30
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 226
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dd68491ed28be40800000000000000
+      internalID: 5672334177555897667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_31
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 252
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37587dfffe563630800000000000000
+      internalID: 3906414180352677690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_32
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 212
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9e9249afe083380800000000000000
+      internalID: -8991420186654807624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindStump_33
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 139
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bd3e22d3f221950800000000000000
+      internalID: 6418244358581246730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WindStump_0: 4142895348390555733
+      WindStump_1: 1829435436106784486
+      WindStump_10: -5385037691139173038
+      WindStump_11: 5368069720386221022
+      WindStump_12: -5817967792131862122
+      WindStump_13: -8053004043527706659
+      WindStump_14: 4954466029667502721
+      WindStump_15: 2288331835825477672
+      WindStump_16: -4907271669575400705
+      WindStump_17: 5101827642819670552
+      WindStump_18: 2458625846197326787
+      WindStump_19: -7690049332392331897
+      WindStump_2: -3614758622822756231
+      WindStump_20: -8186907127938999049
+      WindStump_21: 8903014804011778399
+      WindStump_22: -4908891048070073662
+      WindStump_23: -1498277693021103826
+      WindStump_24: 915440999427230928
+      WindStump_25: -1882143229035752387
+      WindStump_26: -7169954285812654631
+      WindStump_27: -1012716829428867306
+      WindStump_28: -6664449206193200147
+      WindStump_29: -1851155370124597256
+      WindStump_3: -5191428378348470858
+      WindStump_30: 5672334177555897667
+      WindStump_31: 3906414180352677690
+      WindStump_32: -8991420186654807624
+      WindStump_33: 6418244358581246730
+      WindStump_4: 2929935027943489977
+      WindStump_5: 5721276325275826693
+      WindStump_6: 3080596428900197066
+      WindStump_7: 3186070231890273196
+      WindStump_8: 8275828536383348783
+      WindStump_9: 1221827855452992662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
