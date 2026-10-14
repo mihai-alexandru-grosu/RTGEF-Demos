@@ -12,5 +12,5 @@ EditorBuildSettings:
     path: Assets/Scenes/TileWorkshop.unity
     guid: 248ccd6c2e9d37444955d451473903d3
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: dea6b3ef116dc954bbfef3492437a121, type: 3}
   m_UseUCBPForAssetBundles: 0

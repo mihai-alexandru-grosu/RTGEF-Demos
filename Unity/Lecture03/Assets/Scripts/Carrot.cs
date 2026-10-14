@@ -6,6 +6,12 @@ namespace Lecture03
     {
         [SerializeField] private DemoControls demo;
 
+        private void Awake()
+        {
+            if (!demo)
+                demo = FindFirstObjectByType<DemoControls>();
+        }
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (!other.GetComponent<Player>())

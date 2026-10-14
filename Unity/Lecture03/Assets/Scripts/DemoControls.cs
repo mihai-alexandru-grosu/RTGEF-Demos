@@ -11,7 +11,7 @@ namespace Lecture03
 
         [Header("Display")]
         [SerializeField] private TMPro.TMP_Text status;
-        [SerializeField] private string sceneTitle;
+        [SerializeField] private TMPro.TMP_Text inputFeedback;
 
         [Header("Runtime observation")]
         [SerializeField] private int carrots;
@@ -58,7 +58,10 @@ namespace Lecture03
 
         private void Update()
         {
-            status.text = sceneTitle + "   |   Carrots: " + carrots + "\nA/D or arrows / stick: move    Space / south button: jump    R: reset\n1: Level   3: Tile workshop   Esc: quit\n" + lastPhase;
+            status.text = carrots.ToString("00");
+
+            if (inputFeedback)
+                inputFeedback.text = lastPhase;
         }
 
         public void Collect()
