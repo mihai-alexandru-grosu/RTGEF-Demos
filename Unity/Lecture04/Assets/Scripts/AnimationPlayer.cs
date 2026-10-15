@@ -12,6 +12,10 @@ public class AnimationPlayer : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float walkSpeed = 1.6f;
     [SerializeField] private float runSpeed = 4f;
+    [Tooltip("Turning speed in degrees per second.")]
+    [SerializeField, Min(0f)] private float rotationSpeed = 540f;
+    [Tooltip("Damping time in seconds for directional animation changes.")]
+    [SerializeField, Min(0f)] private float directionBlendTime = 0.15f;
     [SerializeField] private Vector2 areaSize = new Vector2(5f, 3f);
 
     [Header("Runtime observations")]
@@ -60,17 +64,20 @@ public class AnimationPlayer : MonoBehaviour
 
         // Directional blending keeps the body facing forward so strafing stays visible.
         if (controllerIndex != 2 && direction.sqrMagnitude > 0.001f)
-            transform.rotation = Quaternion.LookRotation(direction);
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }
 
         animator.SetBool("isWalking", input.sqrMagnitude > 0.001f);
         animator.SetFloat("walkSpeed", input.magnitude * speed);
         Vector2 blendDirection = input * (sprinting ? runSpeed / walkSpeed : 1f);
-        animator.SetFloat("lateralSpeed", blendDirection.x);
-        animator.SetFloat("forwardSpeed", blendDirection.y);
+        animator.SetFloat("lateralSpeed", blendDirection.x, directionBlendTime, Time.deltaTime);
+        animator.SetFloat("forwardSpeed", blendDirection.y, directionBlendTime, Time.deltaTime);
         animator.SetLayerWeight(2, additiveEnabled ? 1f : 0f);
 
         string mode = controllerIndex == 0 ? "Idle / Walking" : controllerIndex == 1 ? "1D speed blend" : "2D directional blend";
-        statusText.text = $"{mode}\nwalkSpeed: {input.magnitude * speed:0.00}\nforwardSpeed: {blendDirection.y:0.00}   lateralSpeed: {blendDirection.x:0.00}\nAdditive breathing: {(additiveEnabled ? "ON" : "OFF")}";
+        statusText.text = $"{mode}\nwalkSpeed: {input.magnitude * speed:0.00}\nforwardSpeed: {animator.GetFloat("forwardSpeed"):0.00}   lateralSpeed: {animator.GetFloat("lateralSpeed"):0.00}\nAdditive breathing: {(additiveEnabled ? "ON" : "OFF")}";
     }
 
     public void SetController(int index)

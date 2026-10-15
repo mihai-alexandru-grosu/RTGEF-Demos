@@ -26,7 +26,6 @@ public class AnimationEvents : MonoBehaviour
     {
         footstepCount++;
         flashTime = 0.12f;
-        audioSource.pitch = foot == 0 ? 0.9f : 1.1f;
         audioSource.Play();
         eventText.text = $"Footstep events: {footstepCount}\nLast foot: {(foot == 0 ? "left" : "right")}\nCompleted waves: {waveCount}";
     }
