@@ -70,6 +70,7 @@ public class AnimationPlayer : MonoBehaviour
         }
 
         animator.SetBool("isWalking", input.sqrMagnitude > 0.001f);
+        
         animator.SetFloat("walkSpeed", input.magnitude * speed);
         Vector2 blendDirection = input * (sprinting ? runSpeed / walkSpeed : 1f);
         animator.SetFloat("lateralSpeed", blendDirection.x, directionBlendTime, Time.deltaTime);

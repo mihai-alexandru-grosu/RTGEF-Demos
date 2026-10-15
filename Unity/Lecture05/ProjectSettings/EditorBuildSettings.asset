@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/ParticleExamples.unity
+    guid: fb0f30ed35f77de4e9e2175638c9bb5b
+  - enabled: 1
+    path: Assets/Scenes/DecalExamples.unity
+    guid: dc2d40be10ad99845a47da569dccd8f8
+  - enabled: 1
+    path: Assets/Scenes/ShaderExamples.unity
+    guid: 5898271cdd8f2c64cbadae5f5ff54d6a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
