@@ -7,3 +7,5 @@ Open in **Unity 6000.3.25f1**. Fetch Git LFS objects when cloning. Open `Assets/
 - Rigging: I toggles IK; T pauses targets.
 
 Focus the Game view for keyboard input or use navigation buttons. Stop Play to reset runtime scene changes; edits to clip/controller assets persist.
+
+Animator speed ramps smoothly when starting/stopping movement and pressing/releasing Shift. Tune Acceleration and Deceleration on Player's Animation Player component.
