@@ -70,18 +70,6 @@ public class LectureSceneNavigation : MonoBehaviour
         for (int i = 0; i < sceneButtons.Length; i++)
             sceneButtons[i].interactable = scene.name != sceneNames[i];
 
-        if (scene.name != "Demo")
-            return;
-
-        // Leave room below the title for the shared navigation bar.
-        foreach (GameObject root in scene.GetRootGameObjects())
-        {
-            foreach (UnityEngine.UI.Text text in root.GetComponentsInChildren<UnityEngine.UI.Text>())
-            {
-                if (text.name == "Status")
-                    text.rectTransform.anchoredPosition = new Vector2(30f, -130f);
-            }
-        }
     }
 
     private void OnDisable()

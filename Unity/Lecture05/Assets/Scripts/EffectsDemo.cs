@@ -10,6 +10,11 @@ public class EffectsDemo : MonoBehaviour
     [SerializeField] private AudioSource ambience;
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private UnityEngine.UI.Text statusText;
+    [SerializeField] private UnityEngine.UI.Text audioStatusText;
+    [SerializeField] private UnityEngine.UI.Slider sfxSlider;
+    [SerializeField] private UnityEngine.UI.Slider ambienceSlider;
+    [SerializeField] private UnityEngine.UI.Text sfxVolumeText;
+    [SerializeField] private UnityEngine.UI.Text ambienceVolumeText;
     [SerializeField] private InputActionAsset controls;
 
     [Header("Camera movement")]
@@ -67,6 +72,19 @@ public class EffectsDemo : MonoBehaviour
     private void OnEnable()
     {
         demoMap.Enable();
+        sfxSlider.onValueChanged.AddListener(SetSfxVolume);
+        ambienceSlider.onValueChanged.AddListener(SetAmbienceVolume);
+    }
+
+    private void SetSfxVolume(float value)
+    {
+        sfxVolume = value;
+    }
+
+    private void SetAmbienceVolume(float value)
+    {
+        ambienceVolume = value;
+        ambience.mute = false;
     }
 
     private void Start()
@@ -131,9 +149,15 @@ public class EffectsDemo : MonoBehaviour
         if (activateAction.WasPressedThisFrame())
             targets[selectedTarget].Activate(audioEnabled, particlesEnabled, shaderEnabled, decalsEnabled);
 
-        statusText.text = $"TARGET {selectedTarget + 1}    Activations: {targets[selectedTarget].ActivationCount}\n"
-            + $"A  Audio: {State(audioEnabled)}     P  Particles: {State(particlesEnabled)}     G  Material: {State(shaderEnabled)}     D  Decal: {State(decalsEnabled)}\n"
-            + $"T  Sound: {(spatialAudio ? "3D spatial" : "2D global")}     SFX: {sfxVolume:P0}     Ambience: {(ambience.mute ? "muted" : ambienceVolume.ToString("P0"))}";
+        statusText.text = $"EFFECTS  /  Target {selectedTarget + 1}  /  Hits {targets[selectedTarget].ActivationCount}\n\n"
+            + $"A  Audio: {State(audioEnabled)}     P  Particles: {State(particlesEnabled)}\n"
+            + $"G  Material: {State(shaderEnabled)}     D  Decal: {State(decalsEnabled)}";
+        sfxSlider.SetValueWithoutNotify(sfxVolume);
+        ambienceSlider.SetValueWithoutNotify(ambienceVolume);
+        sfxVolumeText.text = $"SFX   {sfxVolume * 100f:0}%";
+        ambienceVolumeText.text = $"Ambience   {ambienceVolume * 100f:0}%{(ambience.mute ? " (muted)" : "")}";
+        audioStatusText.text = $"M  {(ambience.mute ? "Unmute ambience" : "Mute ambience")}\n"
+            + $"T  Sound mode: {(spatialAudio ? "3D spatial" : "2D global")}";
     }
 
     private void SetMixerVolume(string parameter, float linearVolume)
@@ -179,6 +203,8 @@ public class EffectsDemo : MonoBehaviour
     private void OnDisable()
     {
         demoMap.Disable();
+        sfxSlider.onValueChanged.RemoveListener(SetSfxVolume);
+        ambienceSlider.onValueChanged.RemoveListener(SetAmbienceVolume);
     }
 
     private void SelectTarget(int index)
