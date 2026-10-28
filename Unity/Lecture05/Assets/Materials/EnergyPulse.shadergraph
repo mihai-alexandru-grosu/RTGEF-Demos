@@ -15,7 +15,11 @@
     ],
     "m_Keywords": [],
     "m_Dropdowns": [],
-    "m_CategoryData": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "94f01fc19d404c7d81e664eacfa67a1a"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "0fd0912ef7f941f687152c62c371b23e"
@@ -146,15 +150,15 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 518.0,
+            "y": -53.00001907348633
         },
         "m_Blocks": []
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 508.9999694824219,
+            "y": 106.0
         },
         "m_Blocks": [
             {
@@ -437,10 +441,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -500.0,
-            "y": -200.0,
-            "width": 220.0,
-            "height": 160.0
+            "x": -546.0,
+            "y": -235.00001525878907,
+            "width": 208.00006103515626,
+            "height": 433.0
         }
     },
     "m_Slots": [
@@ -767,6 +771,24 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "94f01fc19d404c7d81e664eacfa67a1a",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "003b75e90b6d4515824f865b0c214f11"
+        },
+        {
+            "m_Id": "7a5a12a0c0324f9fbf2c55f5ab5d176e"
+        },
+        {
+            "m_Id": "dd521bc1fa50401893fbf4fb668180c2"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "a8a44f4a935f4df5abce8c2c6a5392d9",
     "m_Id": 1,
@@ -942,10 +964,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -800.0,
-            "y": 400.0,
-            "width": 220.0,
-            "height": 160.0
+            "x": -93.99998474121094,
+            "y": 385.9999694824219,
+            "width": 112.00003051757813,
+            "height": 34.000030517578128
         }
     },
     "m_Slots": [
@@ -1115,10 +1137,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -800.0,
-            "y": 100.0,
-            "width": 220.0,
-            "height": 160.0
+            "x": -406.0000305175781,
+            "y": 213.99996948242188,
+            "width": 98.00006103515625,
+            "height": 33.99998474121094
         }
     },
     "m_Slots": [

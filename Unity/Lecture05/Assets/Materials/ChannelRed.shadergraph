@@ -12,7 +12,11 @@
     ],
     "m_Keywords": [],
     "m_Dropdowns": [],
-    "m_CategoryData": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "533ad92631de42e2a06f55c51a3eb2c4"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "def83c41966140aab0d5b05c55dd292f"
@@ -112,15 +116,15 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 291.0,
+            "y": -184.0
         },
         "m_Blocks": []
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 291.0,
+            "y": 15.999991416931153
         },
         "m_Blocks": [
             {
@@ -209,10 +213,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 220.0,
-            "height": 160.0
+            "x": -30.000017166137697,
+            "y": -2.0000083446502687,
+            "width": 208.00001525878907,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -425,6 +429,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "533ad92631de42e2a06f55c51a3eb2c4",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "fe05ee86b6584841b864f20dccc7b73f"
+        },
+        {
+            "m_Id": "e9b2ecabcdf047a9a116368e04e5a817"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "5ffd49bb602a446690fbbb87c4aa2c66",
     "m_Group": {
@@ -435,10 +454,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -800.0,
-            "y": 100.0,
-            "width": 220.0,
-            "height": 160.0
+            "x": -259.99993896484377,
+            "y": 109.99998474121094,
+            "width": 98.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
