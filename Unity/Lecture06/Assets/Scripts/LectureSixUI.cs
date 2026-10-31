@@ -30,8 +30,6 @@ public class LectureSixUI : MonoBehaviour
                 OpenScene(0);
             if (keyboard.f2Key.wasPressedThisFrame)
                 OpenScene(1);
-            if (keyboard.f3Key.wasPressedThisFrame)
-                OpenScene(2);
             if (keyboard.rKey.wasPressedThisFrame)
                 ResetDemo();
         }

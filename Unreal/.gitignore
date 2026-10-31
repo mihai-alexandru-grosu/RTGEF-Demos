@@ -1,4 +1,4 @@
-# Applies to projects directly inside LectureXX/.
+# Applies to projects directly inside LectureXX/ or one project folder deeper.
 # Reference: https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
 /*/Binaries/
 /*/Intermediate/
@@ -15,6 +15,23 @@
 /*/*.VC.db
 /*/*.VC.opendb
 /*/Plugins/**/Intermediate/
+
+# Projects nested one folder deeper, e.g. Lecture07/Lecture7/.
+/*/*/Binaries/
+/*/*/Intermediate/
+/*/*/Saved/
+/*/*/DerivedDataCache/
+/*/*/Builds/
+/*/*/*.sln
+/*/*/*.slnx
+/*/*/*.vcxproj
+/*/*/*.vcxproj.filters
+/*/*/*.vcxproj.user
+/*/*/*.xcodeproj/
+/*/*/*.xcworkspace/
+/*/*/*.VC.db
+/*/*/*.VC.opendb
+/*/*/Plugins/**/Intermediate/
 
 # Keep Content, Config, Source, Build, .uproject and .uplugin files.
 # Keep plugin Binaries and third-party libraries: binary-only plugins need them.
