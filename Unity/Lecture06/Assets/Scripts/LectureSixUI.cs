@@ -1,22 +1,36 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class LectureSixUI : MonoBehaviour
 {
-    [SerializeField] private UnityEngine.UI.Text statusText;
-    [SerializeField] private UnityEngine.UI.Text preferenceText;
+    [SerializeField] private TMP_Text statusText;
+    [SerializeField] private TMP_Text preferenceText;
     [SerializeField] private NavigationDemo navigation;
     [SerializeField] private LightingDemo lighting;
     [SerializeField] private ProfilingDemo profiling;
 
-    private const string PreferenceKey = "RTGEF.Lecture06.LargeText";
-    private bool largeText;
+    [SerializeField] private TMP_Dropdown colorDropdown;
+
+    private const string PreferenceKey = "RTGEF.Lecture06.TextColor";
+    private int colorIndex;
+    private TMP_Text[] sceneTexts;
+
+    private static readonly Color[] TextColors =
+    {
+        Color.white,
+        new Color(1f, 0.82f, 0.35f),
+        new Color(0.4f, 0.9f, 1f),
+        new Color(0.55f, 1f, 0.65f),
+        new Color(1f, 0.65f, 0.85f)
+    };
     private float nextRefresh;
 
     private void Start()
     {
-        largeText = PlayerPrefs.GetInt(PreferenceKey, 0) == 1;
+        sceneTexts = Object.FindObjectsByType<TMP_Text>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        colorIndex = Mathf.Clamp(PlayerPrefs.GetInt(PreferenceKey, 0), 0, TextColors.Length - 1);
         ApplyPreference();
     }
 
@@ -46,10 +60,10 @@ public class LectureSixUI : MonoBehaviour
         SceneManager.LoadScene(index);
     }
 
-    public void TogglePreference()
+    public void SetTextColor(int index)
     {
-        largeText = !largeText;
-        PlayerPrefs.SetInt(PreferenceKey, largeText ? 1 : 0);
+        colorIndex = Mathf.Clamp(index, 0, TextColors.Length - 1);
+        PlayerPrefs.SetInt(PreferenceKey, colorIndex);
         PlayerPrefs.Save();
         ApplyPreference();
     }
@@ -58,14 +72,17 @@ public class LectureSixUI : MonoBehaviour
     {
         PlayerPrefs.DeleteKey(PreferenceKey);
         PlayerPrefs.Save();
-        largeText = false;
+        colorIndex = 0;
         ApplyPreference();
     }
 
     private void ApplyPreference()
     {
-        statusText.fontSize = largeText ? 23 : 19;
-        preferenceText.text = "PlayerPrefs: " + (largeText ? "large" : "normal") + " status text (saved between sessions)";
+        colorDropdown.SetValueWithoutNotify(colorIndex);
+        preferenceText.text = "PlayerPrefs: " + colorDropdown.options[colorIndex].text + " text (saved between sessions)";
+
+        foreach (var text in sceneTexts)
+            text.color = TextColors[colorIndex];
     }
 
     public void ResetDemo()
