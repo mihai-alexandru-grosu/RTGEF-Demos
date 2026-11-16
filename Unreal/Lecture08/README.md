@@ -5,6 +5,7 @@ Open `Lecture8/Lecture8.uproject` with Unreal Engine **5.8.4**. The starting map
 Find the battery, carry it to the generator, restore power and leave through the exit.
 
 - WASD: move. Mouse: look. Space: jump.
+- Walk into the optional lamp display near the entrance to equip the lecture's lamp weapon. It hides while carrying the battery and returns after insertion.
 - E: pick up the battery, insert it or open the powered exit.
 - Hold F for 1.5 seconds beside the generator after inserting the battery. Releasing early or walking away cancels charging.
 - R: restart the normal map, restoring health and the puzzle.
